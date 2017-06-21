@@ -30,6 +30,7 @@ for i = 1:50
      n = length(stats);
      ba = zeros(1,n);
      
+     % Skip the loop if no object Detected
      if n == 0
          continue
      end
